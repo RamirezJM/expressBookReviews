@@ -67,7 +67,7 @@ public_users.get('/review/:isbn',function (req, res) {
 
 // using promises and callback
 
-// get all books
+// GET ALL BOOKS USING PROMISES-AXIOS
 
 public_users.get('/asyncbooks', function (req, res) {
 
@@ -88,7 +88,7 @@ public_users.get('/asyncbooks', function (req, res) {
 
 });
 
-// get a book by ISBN
+// GET A BOOK BASED ON ISBN USING PROMISES-AXIOS
 
 public_users.get('/asyncisbn/:isbn', function (req, res) {
 
@@ -111,7 +111,7 @@ public_users.get('/asyncisbn/:isbn', function (req, res) {
 
 });
 
-// get a book by author
+// GET A BOOK BASED ON AUTHOR USING PROMISES-AXIOS
 
 public_users.get('/asyncauthor/:author', function (req, res) {
 
@@ -134,7 +134,7 @@ public_users.get('/asyncauthor/:author', function (req, res) {
 
 });
 
-//get a book by title
+// GET A BOOK BASED ON TITLE USING PROMISES-AXIOS
 
 public_users.get('/asynctitle/:title', function (req, res) {
 
